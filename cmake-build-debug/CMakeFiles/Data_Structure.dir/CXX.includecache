@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/Data Structure/InsertionSort.h
+iostream
+-
+algorithm
+-
+cassert
+-
+cstring
+-
+
+D:/C++/Data Structure/MergeSort.h
+iostream
+-
+algorithm
+-
+
+D:/C++/Data Structure/QuickSort.h
+ctime
+-
+algorithm
+-
+iostream
+-
+cstring
+-
+
+D:/C++/Data Structure/SelectionSort.h
+iostream
+-
+algorithm
+-
+
+D:/C++/Data Structure/SortTestHelper.h
+cstring
+-
+ctime
+-
+iostream
+-
+cassert
+-
+
+D:/C++/Data Structure/main.cpp
+iostream
+-
+SortTestHelper.h
+D:/C++/Data Structure/SortTestHelper.h
+SelectionSort.h
+D:/C++/Data Structure/SelectionSort.h
+InsertionSort.h
+D:/C++/Data Structure/InsertionSort.h
+MergeSort.h
+D:/C++/Data Structure/MergeSort.h
+cstring
+-
+QuickSort.h
+D:/C++/Data Structure/QuickSort.h
+
