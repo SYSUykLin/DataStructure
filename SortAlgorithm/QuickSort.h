@@ -75,7 +75,7 @@ void __quickSort(T arr[], int l, int r) {
     if (l >= r) {
         return;
     }
-    int p = __partition_version3(arr, l, r);
+    int p = __partition_version2(arr, l, r);
     __quickSort(arr, l, p - 1);
     __quickSort(arr, p + 1, r);
 }

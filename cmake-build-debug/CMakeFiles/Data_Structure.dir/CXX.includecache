@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/Data Structure/InsertionSort.h
+D:/C++/Data Structure/DataStucture/MaxHeap.h
+algorithm
+-
+iostream
+-
+stdio.h
+-
+cassert
+-
+
+D:/C++/Data Structure/SortAlgorithm/InsertionSort.h
 iostream
 -
 algorithm
@@ -16,13 +26,13 @@ cassert
 cstring
 -
 
-D:/C++/Data Structure/MergeSort.h
+D:/C++/Data Structure/SortAlgorithm/MergeSort.h
 iostream
 -
 algorithm
 -
 
-D:/C++/Data Structure/QuickSort.h
+D:/C++/Data Structure/SortAlgorithm/QuickSort.h
 ctime
 -
 algorithm
@@ -32,13 +42,13 @@ iostream
 cstring
 -
 
-D:/C++/Data Structure/SelectionSort.h
+D:/C++/Data Structure/SortAlgorithm/SelectionSort.h
 iostream
 -
 algorithm
 -
 
-D:/C++/Data Structure/SortTestHelper.h
+D:/C++/Data Structure/SortAlgorithm/SortTestHelper.h
 cstring
 -
 ctime
@@ -51,16 +61,20 @@ cassert
 D:/C++/Data Structure/main.cpp
 iostream
 -
-SortTestHelper.h
-D:/C++/Data Structure/SortTestHelper.h
-SelectionSort.h
-D:/C++/Data Structure/SelectionSort.h
-InsertionSort.h
-D:/C++/Data Structure/InsertionSort.h
-MergeSort.h
-D:/C++/Data Structure/MergeSort.h
+SortAlgorithm/SortTestHelper.h
+D:/C++/Data Structure/SortAlgorithm/SortTestHelper.h
+SortAlgorithm/SelectionSort.h
+D:/C++/Data Structure/SortAlgorithm/SelectionSort.h
+SortAlgorithm/InsertionSort.h
+D:/C++/Data Structure/SortAlgorithm/InsertionSort.h
+SortAlgorithm/MergeSort.h
+D:/C++/Data Structure/SortAlgorithm/MergeSort.h
 cstring
 -
-QuickSort.h
-D:/C++/Data Structure/QuickSort.h
+SortAlgorithm/QuickSort.h
+D:/C++/Data Structure/SortAlgorithm/QuickSort.h
+DataStucture/MaxHeap.h
+D:/C++/Data Structure/DataStucture/MaxHeap.h
+ctime
+-
 

@@ -82,19 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/Data Structure/InsertionSort.h">
+		<Unit filename="D:/C++/Data Structure/DataStucture/MaxHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
-		<Unit filename="D:/C++/Data Structure/MergeSort.h">
+		<Unit filename="D:/C++/Data Structure/SortAlgorithm/HeapSort.h">
 			<Option target="Data_Structure"/>
 		</Unit>
-		<Unit filename="D:/C++/Data Structure/QuickSort.h">
+		<Unit filename="D:/C++/Data Structure/SortAlgorithm/InsertionSort.h">
 			<Option target="Data_Structure"/>
 		</Unit>
-		<Unit filename="D:/C++/Data Structure/SelectionSort.h">
+		<Unit filename="D:/C++/Data Structure/SortAlgorithm/MergeSort.h">
 			<Option target="Data_Structure"/>
 		</Unit>
-		<Unit filename="D:/C++/Data Structure/SortTestHelper.h">
+		<Unit filename="D:/C++/Data Structure/SortAlgorithm/QuickSort.h">
+			<Option target="Data_Structure"/>
+		</Unit>
+		<Unit filename="D:/C++/Data Structure/SortAlgorithm/SelectionSort.h">
+			<Option target="Data_Structure"/>
+		</Unit>
+		<Unit filename="D:/C++/Data Structure/SortAlgorithm/SortTestHelper.h">
 			<Option target="Data_Structure"/>
 		</Unit>
 		<Unit filename="D:/C++/Data Structure/main.cpp">
