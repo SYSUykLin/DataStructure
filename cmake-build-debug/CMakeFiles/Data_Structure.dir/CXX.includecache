@@ -16,6 +16,14 @@ stdio.h
 cassert
 -
 
+D:/C++/Data Structure/SortAlgorithm/HeapSort.h
+iostream
+-
+algorithm
+-
+../DataStucture/MaxHeap.h
+D:/C++/Data Structure/DataStucture/MaxHeap.h
+
 D:/C++/Data Structure/SortAlgorithm/InsertionSort.h
 iostream
 -
@@ -73,8 +81,8 @@ cstring
 -
 SortAlgorithm/QuickSort.h
 D:/C++/Data Structure/SortAlgorithm/QuickSort.h
-DataStucture/MaxHeap.h
-D:/C++/Data Structure/DataStucture/MaxHeap.h
 ctime
 -
+SortAlgorithm/HeapSort.h
+D:/C++/Data Structure/SortAlgorithm/HeapSort.h
 

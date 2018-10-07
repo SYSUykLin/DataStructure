@@ -5,8 +5,8 @@
 #include "SortAlgorithm/MergeSort.h"
 #include <cstring>
 #include "SortAlgorithm/QuickSort.h"
-#include "DataStucture/MaxHeap.h"
 #include <ctime>
+#include "SortAlgorithm/HeapSort.h"
 using namespace std;
 
 int main() {
@@ -17,16 +17,7 @@ int main() {
     int *arr3 = SortTestHelper::CopyArray(arr, n);
     int *arr4 = SortTestHelper::CopyArray(arr, n);
     int *arr5 = SortTestHelper::CopyArray(arr, n);
-    MaxHeap<int> heap = MaxHeap<int>(100);
-    for (int i = 0; i < 15; ++i){
-        time(NULL);
-        heap.insert(rand()%100);
-    }
-    for (int j = 0; j < 15; ++j) {
-        cout << heap.pop() << " ";
-    }
-    cout<<endl;
-    cout << heap.size() << endl;
+    int *arr6 = SortTestHelper::CopyArray(arr, n);
 
 //    SortTestHelper::testSort("SelectionSort", SelectionSort, arr, n);
 //    SortTestHelper::testSort("InsertionSort", InsertionSort, arr1, n);
@@ -34,6 +25,9 @@ int main() {
     SortTestHelper::testSort("MergeSort", MergeSort, arr3, n);
     SortTestHelper::testSort("upMergeSort", upMergeSort, arr4, n);
     SortTestHelper::testSort("QuickSort", QuickSort, arr5, n);
+    SortTestHelper::testSort("HeapSort", HeapSort_version1, arr6, n);
+    delete[] arr6;
+    delete[] arr5;
     delete[] arr4;
     delete[] arr3;
     delete[] arr;
