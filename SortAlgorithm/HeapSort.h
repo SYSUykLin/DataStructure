@@ -12,10 +12,7 @@
 using namespace std;
 template<typename T>
 void HeapSort_version1(T arr[], int n){
-    MaxHeap<T> heap = MaxHeap<T>(n);
-    for (int i = 0; i < n; ++i) {
-        heap.insert(arr[i]);
-    }
+    MaxHeap<T> heap = MaxHeap<T>(arr, n);
     for (int j = n-1; j >= 0; --j) {
         arr[j] = heap.pop();
     }
