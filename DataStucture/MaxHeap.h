@@ -75,6 +75,11 @@ public:
         return target;
     }
 
+    void heapify(item arr[]){
+        data = arr;
+
+    }
+
 };
 
 #endif //DATA_STRUCTURE_MAXHEAP_H
