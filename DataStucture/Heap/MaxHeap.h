@@ -47,14 +47,14 @@ public:
         this->capacity = capacity;
     }
 
-    MaxHeap(item arr[], int n){
-        data = new item[n+1];
+    MaxHeap(item arr[], int n) {
+        data = new item[n + 1];
         capacity = n;
         for (int i = 0; i < n; ++i) {
-            data[i+1] = arr[i];
+            data[i + 1] = arr[i];
         }
         count = n;
-        for (int j = count/2; j >= 1; --j) {
+        for (int j = count / 2; j >= 1; --j) {
             shiftDown(j);
         }
     }
@@ -86,7 +86,7 @@ public:
         shiftDown(1);
         return target;
     }
-    
+
 
 };
 

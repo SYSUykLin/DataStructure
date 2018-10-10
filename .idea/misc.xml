@@ -4,6 +4,7 @@
   <component name="CidrRootsConfiguration">
     <sourceRoots>
       <file path="$PROJECT_DIR$/DataStucture" />
+      <file path="$PROJECT_DIR$/DataStucture/Heap" />
       <file path="$PROJECT_DIR$/SortAlgorithm" />
     </sourceRoots>
   </component>

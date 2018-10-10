@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/Data Structure/DataStucture/MaxHeap.h">
+		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/IndexHeap.h">
+			<Option target="Data_Structure"/>
+		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
 		<Unit filename="D:/C++/Data Structure/SortAlgorithm/HeapSort.h">

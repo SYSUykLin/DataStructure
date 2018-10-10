@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/Data Structure/DataStucture/MaxHeap.h
+D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h
 algorithm
 -
 iostream
@@ -21,8 +21,8 @@ iostream
 -
 algorithm
 -
-../DataStucture/MaxHeap.h
-D:/C++/Data Structure/DataStucture/MaxHeap.h
+../DataStucture/Heap/MaxHeap.h
+D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h
 
 D:/C++/Data Structure/SortAlgorithm/InsertionSort.h
 iostream

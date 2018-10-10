@@ -3,4 +3,4 @@ project(Data_Structure)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Data_Structure main.cpp SortAlgorithm/SortTestHelper.h SortAlgorithm/SelectionSort.h SortAlgorithm/InsertionSort.h SortAlgorithm/MergeSort.h SortAlgorithm/QuickSort.h DataStucture/MaxHeap.h SortAlgorithm/HeapSort.h)
+add_executable(Data_Structure main.cpp SortAlgorithm/SortTestHelper.h SortAlgorithm/SelectionSort.h SortAlgorithm/InsertionSort.h SortAlgorithm/MergeSort.h SortAlgorithm/QuickSort.h DataStucture/Heap/MaxHeap.h SortAlgorithm/HeapSort.h DataStucture/Heap/IndexHeap.h)
