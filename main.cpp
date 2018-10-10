@@ -25,7 +25,7 @@ int main() {
     SortTestHelper::testSort("MergeSort", MergeSort, arr3, n);
     SortTestHelper::testSort("upMergeSort", upMergeSort, arr4, n);
     SortTestHelper::testSort("QuickSort", QuickSort, arr5, n);
-    SortTestHelper::testSort("HeapSort", HeapSort_version1, arr6, n);
+    SortTestHelper::testSort("HeapSort", HeapSort_version2, arr6, n);
     delete[] arr6;
     delete[] arr5;
     delete[] arr4;
