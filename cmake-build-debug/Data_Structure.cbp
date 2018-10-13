@@ -88,6 +88,9 @@
 		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/SortAlgorithm/HeapSort.h">
 			<Option target="Data_Structure"/>
 		</Unit>
