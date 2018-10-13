@@ -16,6 +16,14 @@ stdio.h
 cassert
 -
 
+D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h
+algorithm
+-
+iostream
+-
+cassert
+-
+
 D:/C++/Data Structure/SortAlgorithm/HeapSort.h
 iostream
 -
@@ -85,4 +93,6 @@ ctime
 -
 SortAlgorithm/HeapSort.h
 D:/C++/Data Structure/SortAlgorithm/HeapSort.h
+DataStucture/Tree/BinarySearchTree.h
+D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h
 
