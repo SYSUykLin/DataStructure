@@ -8,6 +8,8 @@
 #include <ctime>
 #include "SortAlgorithm/HeapSort.h"
 #include "DataStucture/Tree/BinarySearchTree.h"
+#include "DataStucture/UnionFind/UnionFind.h"
+
 using namespace std;
 
 int main() {
@@ -35,11 +37,17 @@ int main() {
 //    delete[] arr1;
 //    delete[] arr2;
 /* ------Sort Test------ */
-BST<int, string> tree = BST<int, string>();
-tree.insertNode(89, "one");
-tree.insertNode(23, "two");
-tree.insertNode(37, "three");
-tree.insertNode(24, "four");
-tree.insertNode(58, "five");
-cout << *tree.search(37) << endl;
- }
+//BST<int, string> tree = BST<int, string>();
+//tree.insertNode(89, "one");
+//tree.insertNode(23, "two");
+//tree.insertNode(37, "three");
+//tree.insertNode(24, "four");
+//tree.insertNode(58, "five");
+//cout << *tree.search(37) << endl;
+/* ------Tree Test------ */
+    UF_version1::unionFind uF = UF_version1::unionFind(10);
+    uF.unionElements(1, 2);
+    uF.unionElements(5, 4);
+    uF.unionElements(3, 1);
+    cout << uF.isConnected(4, 5) << endl;
+}
