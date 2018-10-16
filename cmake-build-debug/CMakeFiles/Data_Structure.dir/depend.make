@@ -3,6 +3,7 @@
 
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/Heap/MaxHeap.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/Tree/BinarySearchTree.h
+CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/UnionFind/UnionFind.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../SortAlgorithm/HeapSort.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../SortAlgorithm/InsertionSort.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../SortAlgorithm/MergeSort.h

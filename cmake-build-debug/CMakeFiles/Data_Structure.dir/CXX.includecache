@@ -17,9 +17,19 @@ cassert
 -
 
 D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h
+queue
+-
 algorithm
 -
 iostream
+-
+cassert
+-
+
+D:/C++/Data Structure/DataStucture/UnionFind/UnionFind.h
+iostream
+-
+algorithm
 -
 cassert
 -
@@ -95,4 +105,6 @@ SortAlgorithm/HeapSort.h
 D:/C++/Data Structure/SortAlgorithm/HeapSort.h
 DataStucture/Tree/BinarySearchTree.h
 D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h
+DataStucture/UnionFind/UnionFind.h
+D:/C++/Data Structure/DataStucture/UnionFind/UnionFind.h
 

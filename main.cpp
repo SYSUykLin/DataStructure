@@ -45,7 +45,7 @@ int main() {
 //tree.insertNode(58, "five");
 //cout << *tree.search(37) << endl;
 /* ------Tree Test------ */
-    UF_version1::unionFind uF = UF_version1::unionFind(10);
+    UF_version2::unionFind uF = UF_version2::unionFind(10);
     uF.unionElements(1, 2);
     uF.unionElements(5, 4);
     uF.unionElements(3, 1);
