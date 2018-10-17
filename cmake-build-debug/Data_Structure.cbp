@@ -85,6 +85,9 @@
 		<Unit filename="D:/C++/Data Structure/DataStucture/Graph/DenseGraph.h">
 			<Option target="Data_Structure"/>
 		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/Graph/SparseGraph.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/IndexHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>

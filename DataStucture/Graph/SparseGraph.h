@@ -2,33 +2,32 @@
 // Created by root on 2018/10/17.
 //
 
-#ifndef DATA_STRUCTURE_DENSEGRAPH_H
-#define DATA_STRUCTURE_DENSEGRAPH_H
+#ifndef DATA_STRUCTURE_SPARSEGRAPH_H
+#define DATA_STRUCTURE_SPARSEGRAPH_H
 
-#include <iostream>
-#include <algorithm>
-#include <ctime>
-#include <cassert>
 #include <vector>
+#include <algorithm>
+#include <iostream>
+#include <cassert>
 
 using namespace std;
-namespace Matrix {
-    class DenseGraph {
+namespace list {
+    class SparseGraph {
     private:
         int n, m;
         bool directed;
-        vector<vector<bool>> g;
+        vector<vector<int>> g;
     public:
-        DenseGraph(int n, bool directed) {
+        SparseGraph(int n, bool directed) {
             this->n = n;
-            this->m = 0;
             this->directed = directed;
+            this->m = 0;
             for (int i = 0; i < n; ++i) {
-                g.emplace_back(vector<bool>(n, false));
+                g.emplace_back(vector<int>());
             }
         }
 
-        ~DenseGraph() = default;
+        ~SparseGraph() = default;
 
         int V() {
             return n;
@@ -44,9 +43,9 @@ namespace Matrix {
             if (haveEdge(v, w)) {
                 return;
             }
-            g[v][w] = true;
-            if (!this->directed) {
-                g[w][v] = true;
+            g[v].emplace_back(w);
+            if (v != w && !this->directed) {
+                g[w].emplace_back(v);
             }
             this->m++;
         }
@@ -54,8 +53,13 @@ namespace Matrix {
         bool haveEdge(int v, int w) {
             assert(v >= 0 && v < n);
             assert(w >= 0 && w < n);
-            return g[v][w];
+            for (auto var : g[v]) {
+                if (var == w) {
+                    return true;
+                }
+            }
+            return false;
         }
     };
 }
-#endif //DATA_STRUCTURE_DENSEGRAPH_H
+#endif //DATA_STRUCTURE_SPARSEGRAPH_H
