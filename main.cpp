@@ -50,5 +50,4 @@ int main() {
     uF.unionElements(5, 4);
     uF.unionElements(3, 1);
     cout << uF.isConnected(4, 5) << endl;
-    cout << "Finished !" << endl;
 }
