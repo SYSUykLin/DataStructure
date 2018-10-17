@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h
+/Users/GreenArrow/CLionProjects/DataStructure/DataStucture/Heap/MaxHeap.h
 algorithm
 -
 iostream
@@ -16,7 +16,7 @@ stdio.h
 cassert
 -
 
-D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h
+/Users/GreenArrow/CLionProjects/DataStructure/DataStucture/Tree/BinarySearchTree.h
 queue
 -
 algorithm
@@ -26,7 +26,7 @@ iostream
 cassert
 -
 
-D:/C++/Data Structure/DataStucture/UnionFind/UnionFind.h
+/Users/GreenArrow/CLionProjects/DataStructure/DataStucture/UnionFind/UnionFind.h
 iostream
 -
 algorithm
@@ -34,15 +34,15 @@ algorithm
 cassert
 -
 
-D:/C++/Data Structure/SortAlgorithm/HeapSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/HeapSort.h
 iostream
 -
 algorithm
 -
 ../DataStucture/Heap/MaxHeap.h
-D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h
+/Users/GreenArrow/CLionProjects/DataStructure/DataStucture/Heap/MaxHeap.h
 
-D:/C++/Data Structure/SortAlgorithm/InsertionSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/InsertionSort.h
 iostream
 -
 algorithm
@@ -52,13 +52,13 @@ cassert
 cstring
 -
 
-D:/C++/Data Structure/SortAlgorithm/MergeSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/MergeSort.h
 iostream
 -
 algorithm
 -
 
-D:/C++/Data Structure/SortAlgorithm/QuickSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/QuickSort.h
 ctime
 -
 algorithm
@@ -68,13 +68,13 @@ iostream
 cstring
 -
 
-D:/C++/Data Structure/SortAlgorithm/SelectionSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/SelectionSort.h
 iostream
 -
 algorithm
 -
 
-D:/C++/Data Structure/SortAlgorithm/SortTestHelper.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/SortTestHelper.h
 cstring
 -
 ctime
@@ -84,27 +84,27 @@ iostream
 cassert
 -
 
-D:/C++/Data Structure/main.cpp
+/Users/GreenArrow/CLionProjects/DataStructure/main.cpp
 iostream
 -
 SortAlgorithm/SortTestHelper.h
-D:/C++/Data Structure/SortAlgorithm/SortTestHelper.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/SortTestHelper.h
 SortAlgorithm/SelectionSort.h
-D:/C++/Data Structure/SortAlgorithm/SelectionSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/SelectionSort.h
 SortAlgorithm/InsertionSort.h
-D:/C++/Data Structure/SortAlgorithm/InsertionSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/InsertionSort.h
 SortAlgorithm/MergeSort.h
-D:/C++/Data Structure/SortAlgorithm/MergeSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/MergeSort.h
 cstring
 -
 SortAlgorithm/QuickSort.h
-D:/C++/Data Structure/SortAlgorithm/QuickSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/QuickSort.h
 ctime
 -
 SortAlgorithm/HeapSort.h
-D:/C++/Data Structure/SortAlgorithm/HeapSort.h
+/Users/GreenArrow/CLionProjects/DataStructure/SortAlgorithm/HeapSort.h
 DataStucture/Tree/BinarySearchTree.h
-D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h
+/Users/GreenArrow/CLionProjects/DataStructure/DataStucture/Tree/BinarySearchTree.h
 DataStucture/UnionFind/UnionFind.h
-D:/C++/Data Structure/DataStucture/UnionFind/UnionFind.h
+/Users/GreenArrow/CLionProjects/DataStructure/DataStucture/UnionFind/UnionFind.h
 

@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Data_Structure.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Data_Structure.dir/objects.a @CMakeFiles\Data_Structure.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Data_Structure.dir/objects.a -Wl,--no-whole-archive  -o Data_Structure.exe -Wl,--out-implib,libData_Structure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Data_Structure.dir\linklibs.rsp
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Data_Structure.dir/main.cpp.o  -o Data_Structure 
