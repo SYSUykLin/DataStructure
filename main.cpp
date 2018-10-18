@@ -9,6 +9,8 @@
 #include "SortAlgorithm/HeapSort.h"
 #include "DataStucture/Tree/BinarySearchTree.h"
 #include "DataStucture/UnionFind/UnionFind.h"
+#include "DataStucture/Graph/SparseGraph.h"
+#include "DataStucture/Graph/DenseGraph.h"
 
 using namespace std;
 
@@ -45,9 +47,28 @@ int main() {
 //tree.insertNode(58, "five");
 //cout << *tree.search(37) << endl;
 /* ------Tree Test------ */
-    UF_version2::unionFind uF = UF_version2::unionFind(10);
-    uF.unionElements(1, 2);
-    uF.unionElements(5, 4);
-    uF.unionElements(3, 1);
-    cout << uF.isConnected(4, 5) << endl;
+//    UF_version2::unionFind uF = UF_version2::unionFind(10);
+//    uF.unionElements(1, 2);
+//    uF.unionElements(5, 4);
+//    uF.unionElements(3, 1);
+//    cout << uF.isConnected(4, 5) << endl;
+/* ------Graph------ */
+    int N = 20;
+    int M = 100;
+    srand(time(NULL));
+    Matrix::DenseGraph graph1 = Matrix::DenseGraph(N, false);
+    for (int i = 0; i < M; ++i) {
+        int a = rand() % N;
+        int b = rand() % N;
+        graph1.addEdge(a, b);
+    }
+    for (int j = 0; j < N; ++j) {
+        cout << j << " : ";
+        Matrix::DenseGraph::adjIterator adj(graph1, j);
+        for (int w = adj.begin(); !adj.end(); w = adj.next()) {
+            cout << w << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
 }

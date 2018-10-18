@@ -60,6 +60,36 @@ namespace list {
             }
             return false;
         }
+
+        //interator
+        class adjIterator {
+        private:
+            SparseGraph &G;
+            int v;
+            int index;
+        public:
+            adjIterator(SparseGraph &graph, int v) : G(graph) {
+                assert(v < graph.n);
+                this->v = v;
+                this->index = 0;
+            }
+            int begin(){
+                if (!G.g[v].empty()){
+                    return G.g[v][this->index];
+                }
+                return -1;
+            }
+            int next(){
+                index ++;
+                if (index < G.g[v].size()){
+                    return G.g[v][index];
+                }
+                return -1;
+            }
+            bool end(){
+                return index >= G.g[v].size();
+            }
+        };
     };
 }
 #endif //DATA_STRUCTURE_SPARSEGRAPH_H
