@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/C++/Data Structure/DataStucture/Graph/BFS.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/Graph/Component.h">
 			<Option target="Data_Structure"/>
 		</Unit>

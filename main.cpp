@@ -14,7 +14,7 @@
 #include "DataStucture/Graph/ReadGraph.h"
 #include "DataStucture/Graph/Component.h"
 #include "DataStucture/Graph/Path.h"
-
+#include "DataStucture/Graph/BFS.h"
 typedef Matrix::DenseGraph Graph;
 using namespace std;
 
@@ -83,6 +83,10 @@ int main() {
     cout << endl << com.count() << endl;
     cout << com.isConnected(1, 4) << endl;
     Path<Graph> path(graph1, 0);
+    cout << "DFS: ";
     path.showPath(6);
+    bfs<Graph> shortP(graph1, 0);
+    cout << endl << "BFS: ";
+    shortP.showShortPath(6);
     return 0;
 }
