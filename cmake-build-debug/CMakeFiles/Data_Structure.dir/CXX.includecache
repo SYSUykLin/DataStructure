@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+D:/C++/Data Structure/DataStucture/Graph/BFS.h
+queue
+-
+iostream
+-
+cassert
+-
+algorithm
+-
+stack
+-
+
 D:/C++/Data Structure/DataStucture/Graph/Component.h
 iostream
 -
@@ -171,4 +183,6 @@ DataStucture/Graph/Component.h
 D:/C++/Data Structure/DataStucture/Graph/Component.h
 DataStucture/Graph/Path.h
 D:/C++/Data Structure/DataStucture/Graph/Path.h
+DataStucture/Graph/BFS.h
+D:/C++/Data Structure/DataStucture/Graph/BFS.h
 
