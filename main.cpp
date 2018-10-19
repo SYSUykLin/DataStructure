@@ -14,6 +14,8 @@
 #include "DataStucture/Graph/ReadGraph.h"
 #include "DataStucture/Graph/Component.h"
 #include "DataStucture/Graph/Path.h"
+
+typedef Matrix::DenseGraph Graph;
 using namespace std;
 
 int main() {
@@ -73,13 +75,14 @@ int main() {
 //        cout << endl;
 //    }
 //    cout << endl;
-    string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\testG1.txt";
-    list::SparseGraph graph1(13, false);
-    ReadGraph<list::SparseGraph> readgraph(graph1, filename);
-    Component<list::SparseGraph> com = Component<list::SparseGraph>(graph1);
+    string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\testG2.txt";
+    Graph graph1(7, false);
+    ReadGraph<Graph> readgraph(graph1, filename);
+    //graph1.show();
+    Component<Graph> com = Component<Graph>(graph1);
     cout << endl << com.count() << endl;
     cout << com.isConnected(1, 4) << endl;
-    Path<list::SparseGraph> path(graph1, 0);
+    Path<Graph> path(graph1, 0);
     path.showPath(6);
     return 0;
 }

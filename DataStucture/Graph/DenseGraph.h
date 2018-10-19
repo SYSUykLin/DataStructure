@@ -57,6 +57,15 @@ namespace Matrix {
             return g[v][w];
         }
 
+        void show(){
+            for (int i = 0; i < g.size(); ++i) {
+                for (int j = 0; j < g[i].size(); ++j) {
+                    cout << g[i][j] << " ";
+                }
+                cout << endl;
+            }
+        }
+
         class adjIterator {
         private:
             DenseGraph &G;
@@ -74,7 +83,6 @@ namespace Matrix {
             }
 
             int next() {
-                index++;
                 for (index += 1; index < G.V(); index++) {
                     if (G.g[v][index]) {
                         return index;
