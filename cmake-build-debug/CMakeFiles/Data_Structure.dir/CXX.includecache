@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+D:/C++/Data Structure/DataStucture/Graph/Component.h
+iostream
+-
+algorithm
+-
+cassert
+-
+
 D:/C++/Data Structure/DataStucture/Graph/DenseGraph.h
 iostream
 -
@@ -16,6 +24,30 @@ ctime
 cassert
 -
 vector
+-
+
+D:/C++/Data Structure/DataStucture/Graph/Path.h
+stack
+-
+vector
+-
+algorithm
+-
+cassert
+-
+iostream
+-
+
+D:/C++/Data Structure/DataStucture/Graph/ReadGraph.h
+iostream
+-
+algorithm
+-
+cassert
+-
+sstream
+-
+fstream
 -
 
 D:/C++/Data Structure/DataStucture/Graph/SparseGraph.h
@@ -133,4 +165,10 @@ DataStucture/Graph/SparseGraph.h
 D:/C++/Data Structure/DataStucture/Graph/SparseGraph.h
 DataStucture/Graph/DenseGraph.h
 D:/C++/Data Structure/DataStucture/Graph/DenseGraph.h
+DataStucture/Graph/ReadGraph.h
+D:/C++/Data Structure/DataStucture/Graph/ReadGraph.h
+DataStucture/Graph/Component.h
+D:/C++/Data Structure/DataStucture/Graph/Component.h
+DataStucture/Graph/Path.h
+D:/C++/Data Structure/DataStucture/Graph/Path.h
 

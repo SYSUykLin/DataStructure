@@ -12,7 +12,8 @@
 #include "DataStucture/Graph/SparseGraph.h"
 #include "DataStucture/Graph/DenseGraph.h"
 #include "DataStucture/Graph/ReadGraph.h"
-
+#include "DataStucture/Graph/Component.h"
+#include "DataStucture/Graph/Path.h"
 using namespace std;
 
 int main() {
@@ -75,5 +76,10 @@ int main() {
     string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\testG1.txt";
     list::SparseGraph graph1(13, false);
     ReadGraph<list::SparseGraph> readgraph(graph1, filename);
+    Component<list::SparseGraph> com = Component<list::SparseGraph>(graph1);
+    cout << endl << com.count() << endl;
+    cout << com.isConnected(1, 4) << endl;
+    Path<list::SparseGraph> path(graph1, 0);
+    path.showPath(6);
     return 0;
 }
