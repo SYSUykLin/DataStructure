@@ -92,19 +92,19 @@ namespace Sparse {
                 this->index = 0;
             }
 
-            int begin() {
+            Edge<Weight>* begin() {
                 if (!G.g[v].empty()) {
                     return G.g[v][this->index];
                 }
-                return -1;
+                return NULL;
             }
 
-            int next() {
+            Edge<Weight>* next() {
                 index++;
                 if (index < G.g[v].size()) {
                     return G.g[v][index];
                 }
-                return -1;
+                return NULL;
             }
 
             bool end() {

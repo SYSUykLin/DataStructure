@@ -96,12 +96,12 @@ namespace Span {
                 this->index = -1;
             }
 
-            Edge<Weight> begin() {
+            Edge<Weight>* begin() {
                 index = -1;
                 return next();
             }
 
-            Edge<Weight> next() {
+            Edge<Weight>* next() {
                 for (index += 1; index < G.V(); index++) {
                     if (G.g[v][index]) {
                         return G.g[v][index];

@@ -34,6 +34,9 @@ public:
         return v == a ? b : a;
     }
 
+    int v(){ return a;}
+    int w(){ return b;}
+
     friend ostream& operator<<(ostream &os, const Edge &e){
         os << e.a << "->" << e.b << " : " << e.weight;
         return os;
@@ -48,15 +51,15 @@ public:
     }
 
     bool operator>(Edge<Weight>& e){
-        return weight < e.wt();
+        return weight > e.wt();
     }
 
     bool operator>=(Edge<Weight>& e){
-        return weight < e.wt();
+        return weight >= e.wt();
     }
 
     bool operator==(Edge<Weight>& e){
-        return weight < e.wt();
+        return weight == e.wt();
     }
 };
 

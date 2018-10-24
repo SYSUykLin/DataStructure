@@ -18,6 +18,7 @@
 #include "DataStucture/MinimumSpanTrees/DenseGraph.h"
 #include "DataStucture/MinimumSpanTrees/ReadGraph.h"
 #include "DataStucture/MinimumSpanTrees/SparseGraph.h"
+#include "DataStucture/MinimumSpanTrees/LazyPrim.h"
 typedef Matrix::DenseGraph Graph;
 using namespace std;
 
@@ -94,7 +95,12 @@ int main() {
 //    return 0;
 /*------SpanTree------*/
 string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\spanG1.txt";
-Sparse::SparseGraph<double > g1 = Sparse::SparseGraph<double >(8, false);
-Read::ReadGraph<Sparse::SparseGraph<double >, double > readGraph(g1, filename);
-g1.show();
+Span::DenseGraph<double > g1 = Span::DenseGraph<double >(8, false);
+Read::ReadGraph<Span::DenseGraph<double >, double > readGraph(g1, filename);
+MinimumSpanTree_Prim::Prim<Span::DenseGraph<double >, double > p(g1);
+vector<Edge<double >> mst = p.mstEdges();
+    for (int i = 0; i < mst.size(); ++i) {
+        cout << mst[i] << endl;
+    }
+cout << p.result() << endl;
 }

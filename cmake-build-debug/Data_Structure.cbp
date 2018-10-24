@@ -106,10 +106,16 @@
 		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/MinHeap.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/DenseGraph.h">
 			<Option target="Data_Structure"/>
 		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Edge.h">
+			<Option target="Data_Structure"/>
+		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/LazyPrim.h">
 			<Option target="Data_Structure"/>
 		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/Tree/BinarySearchTree.h">
