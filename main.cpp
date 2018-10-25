@@ -19,6 +19,8 @@
 #include "DataStucture/MinimumSpanTrees/ReadGraph.h"
 #include "DataStucture/MinimumSpanTrees/SparseGraph.h"
 #include "DataStucture/MinimumSpanTrees/LazyPrim.h"
+#include "DataStucture/MinimumSpanTrees/Kruskal.h"
+#include "DataStucture/MinimumSpanTrees/Dijkstra.h"
 typedef Matrix::DenseGraph Graph;
 using namespace std;
 
@@ -94,13 +96,16 @@ int main() {
 //    shortP.showShortPath(6);
 //    return 0;
 /*------SpanTree------*/
-string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\spanG1.txt";
-Span::DenseGraph<double > g1 = Span::DenseGraph<double >(8, false);
-Read::ReadGraph<Span::DenseGraph<double >, double > readGraph(g1, filename);
-MinimumSpanTree_Prim::Prim<Span::DenseGraph<double >, double > p(g1);
-vector<Edge<double >> mst = p.mstEdges();
-    for (int i = 0; i < mst.size(); ++i) {
-        cout << mst[i] << endl;
-    }
-cout << p.result() << endl;
+    string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\D.txt";
+    Span::DenseGraph<double> g1 = Span::DenseGraph<double>(5, true);
+    Read::ReadGraph<Span::DenseGraph<double>, double> readGraph(g1, filename);
+//    MinimumSpanTree_Kruskal::Kruskal<Span::DenseGraph<double>, double> p(g1);
+//    vector<Edge<double >> mst = p.mstEdges();
+//    for (int i = 0; i < mst.size(); ++i) {
+//        cout << mst[i] << endl;
+//    }
+//    cout << p.result() << endl;
+    Dijkstra<Span::DenseGraph<double>, double> D(g1, 0);
+    D.show();
+
 }

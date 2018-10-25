@@ -103,6 +103,9 @@
 		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/IndexHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/IndexMinHeap.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/MaxHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
@@ -112,7 +115,13 @@
 		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/DenseGraph.h">
 			<Option target="Data_Structure"/>
 		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Dijkstra.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Edge.h">
+			<Option target="Data_Structure"/>
+		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Kruskal.h">
 			<Option target="Data_Structure"/>
 		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/LazyPrim.h">
