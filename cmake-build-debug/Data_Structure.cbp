@@ -112,6 +112,9 @@
 		<Unit filename="D:/C++/Data Structure/DataStucture/Heap/MinHeap.h">
 			<Option target="Data_Structure"/>
 		</Unit>
+		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Bellman-Ford.h">
+			<Option target="Data_Structure"/>
+		</Unit>
 		<Unit filename="D:/C++/Data Structure/DataStucture/MinimumSpanTrees/DenseGraph.h">
 			<Option target="Data_Structure"/>
 		</Unit>

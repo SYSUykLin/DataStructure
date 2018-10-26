@@ -12,19 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a730ce6-5878-410c-8caf-46aa1281f161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStucture/Data/D.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStucture/Heap/IndexMinHeap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Dijkstra.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Kruskal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStucture/Data/Ford.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Bellman-Ford.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStucture/Heap/IndexMinHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/DataStucture/Heap/IndexMinHeap.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Data_Structure.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Data_Structure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Data_Structure.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Data_Structure.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Data_Structure.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -39,44 +36,44 @@
     <session id="1853283503">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="8" />
-          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.6" value="9" />
+          <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="8" />
-          <entry key="h" value="98" />
+          <entry key="h" value="103" />
           <entry key="py" value="1" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="106" />
+          <entry key="ObjectiveC" value="111" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3073" />
-          <entry key="h" value="21628" />
+          <entry key="cpp" value="3113" />
+          <entry key="h" value="22250" />
           <entry key="py" value="13" />
           <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="24701" />
+          <entry key="ObjectiveC" value="25363" />
           <entry key="PLAIN_TEXT" value="41" />
           <entry key="Python" value="13" />
         </counts>
@@ -88,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="109">
+              <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -97,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Dijkstra.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="252">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="e#110#129#0" expanded="true" />
               </folding>
@@ -109,14 +106,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStucture/MinimumSpanTrees/DenseGraph.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Bellman-Ford.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="106" column="45" lean-forward="true" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+            <state relative-caret-position="109">
+              <caret line="28" column="76" lean-forward="true" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
               <folding>
-                <element signature="e#104#123#0" expanded="true" />
-                <element signature="e#268#285#0" expanded="true" />
+                <element signature="e#118#137#0" expanded="true" />
+                <element signature="e#188#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,9 +162,10 @@
         <option value="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/LazyPrim.h" />
         <option value="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Kruskal.h" />
         <option value="$PROJECT_DIR$/DataStucture/Graph/Dijkstra.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Dijkstra.h" />
         <option value="$PROJECT_DIR$/DataStucture/Heap/IndexMinHeap.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Bellman-Ford.h" />
       </list>
     </option>
   </component>
@@ -190,17 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
-          <expand>
-            <path>
-              <item name="Data_Structure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,19 +210,18 @@
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
               <item name="DataStucture" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStucture" type="462c0819:PsiDirectoryNode" />
-              <item name="Heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStucture" type="462c0819:PsiDirectoryNode" />
               <item name="MinimumSpanTrees" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="Data_Structure" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -251,14 +237,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C++\Data Structure\DataStucture\MinimumSpanTrees" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\C++\Data Structure\DataStucture\Data" />
       <recent name="D:\C++\Data Structure\DataStucture\MinimumSpanTrees" />
       <recent name="D:\C++\Data Structure\DataStucture\Heap" />
       <recent name="D:\C++\Data Structure\SortAlgorithm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\C++\Data Structure\DataStucture\MinimumSpanTrees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,7 +344,9 @@
       <workItem from="1540367470117" duration="536000" />
       <workItem from="1540378456726" duration="11221000" />
       <workItem from="1540455338679" duration="11405000" />
-      <workItem from="1540470262733" duration="3919000" />
+      <workItem from="1540470262733" duration="5401000" />
+      <workItem from="1540483544650" duration="228000" />
+      <workItem from="1540519258066" duration="6548000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1538383902088</created>
@@ -458,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540385091198</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Span">
+      <created>1540474265380</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540474265380</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172021000" />
+    <option name="totallyTimeSpent" value="180279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,12 +472,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16085792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.38723403" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3531915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33617023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -669,10 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2232">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#107#127#0" expanded="true" />
-            <element signature="e#217#232#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2959">
           <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-          <folding>
-            <element signature="e#106#123#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,10 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding>
-            <element signature="e#108#128#0" expanded="true" />
-            <element signature="e#197#212#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,35 +759,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStucture/Heap/IndexHeap.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1579">
-          <caret line="90" column="2" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="281">
+          <caret line="80" column="15" lean-forward="true" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStucture/Heap/IndexMinHeap.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding>
-            <element signature="e#118#137#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStucture/MinimumSpanTrees/DenseGraph.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="106" column="45" lean-forward="true" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+        <state relative-caret-position="583">
+          <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
           <folding>
             <element signature="e#104#123#0" expanded="true" />
             <element signature="e#268#285#0" expanded="true" />
@@ -813,10 +784,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Dijkstra.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="252">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="e#110#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStucture/MinimumSpanTrees/Bellman-Ford.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="28" column="76" lean-forward="true" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+          <folding>
+            <element signature="e#118#137#0" expanded="true" />
+            <element signature="e#188#221#0" expanded="true" />
           </folding>
         </state>
       </provider>

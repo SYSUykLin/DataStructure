@@ -98,6 +98,18 @@ cassert
 iostream
 -
 
+D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Bellman-Ford.h
+iostream
+-
+algorithm
+-
+vector
+-
+Edge.h
+D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Edge.h
+stack
+-
+
 D:/C++/Data Structure/DataStucture/MinimumSpanTrees/DenseGraph.h
 iostream
 -
@@ -303,4 +315,6 @@ DataStucture/MinimumSpanTrees/Kruskal.h
 D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Kruskal.h
 DataStucture/MinimumSpanTrees/Dijkstra.h
 D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Dijkstra.h
+DataStucture/MinimumSpanTrees/Bellman-Ford.h
+D:/C++/Data Structure/DataStucture/MinimumSpanTrees/Bellman-Ford.h
 

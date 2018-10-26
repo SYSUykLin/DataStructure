@@ -10,6 +10,7 @@ CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/Graph/SparseGraph.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/Heap/IndexMinHeap.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/Heap/MaxHeap.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/Heap/MinHeap.h
+CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/MinimumSpanTrees/Bellman-Ford.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/MinimumSpanTrees/DenseGraph.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/MinimumSpanTrees/Dijkstra.h
 CMakeFiles/Data_Structure.dir/main.cpp.obj: ../DataStucture/MinimumSpanTrees/Edge.h

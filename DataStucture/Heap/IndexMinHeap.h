@@ -122,7 +122,6 @@ public:
     }
 
     bool contain( int index ){
-
         return reverse[index+1] != 0;
     }
 

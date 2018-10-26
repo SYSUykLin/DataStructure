@@ -21,6 +21,7 @@
 #include "DataStucture/MinimumSpanTrees/LazyPrim.h"
 #include "DataStucture/MinimumSpanTrees/Kruskal.h"
 #include "DataStucture/MinimumSpanTrees/Dijkstra.h"
+#include "DataStucture/MinimumSpanTrees/Bellman-Ford.h"
 typedef Matrix::DenseGraph Graph;
 using namespace std;
 
@@ -96,7 +97,7 @@ int main() {
 //    shortP.showShortPath(6);
 //    return 0;
 /*------SpanTree------*/
-    string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\D.txt";
+    string filename = "D:\\C++\\Data Structure\\DataStucture\\Data\\Ford.txt";
     Span::DenseGraph<double> g1 = Span::DenseGraph<double>(5, true);
     Read::ReadGraph<Span::DenseGraph<double>, double> readGraph(g1, filename);
 //    MinimumSpanTree_Kruskal::Kruskal<Span::DenseGraph<double>, double> p(g1);
@@ -105,7 +106,9 @@ int main() {
 //        cout << mst[i] << endl;
 //    }
 //    cout << p.result() << endl;
-    Dijkstra<Span::DenseGraph<double>, double> D(g1, 0);
-    D.show();
+//    Dijkstra<Span::DenseGraph<double>, double> D(g1, 0);
+//    D.show();
+Ford::BellmanFord<Span::DenseGraph<double>, double> F(g1, 0);
+F.show();
 
 }
